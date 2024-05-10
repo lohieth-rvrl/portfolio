@@ -1,0 +1,50 @@
+<div class="row">
+                      <div className="col-md-12">
+                        <div class="dbox d-flex flex-row align-items-center">
+                          <div class="icon d-flex align-items-center justify-content-center p-3">
+                            <FontAwesomeIcon icon={faLocationDot} size="3x" />
+                          </div>
+                          <div class="text">
+                            <span>Address :</span>
+                            <p>
+                              Namakkal, TamilNadu, <br />
+                              India.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dbox  d-flex flex-row align-items-center">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                            <FontAwesomeIcon icon={faPhone} size="2x" />
+                          </div>
+                          <div class="text">
+                            <p className="d-flex flex-column">
+                              <span>Phone :</span>{" "}
+                              <a href="tel://9384931628">9384931628</a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dbox d-flex flex-row align-items-center">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                            <FontAwesomeIcon icon={faPaperPlane} size="2x" />
+                          </div>
+                          <div class="text">
+                            <p className="d-flex flex-column flex-wrap">
+                              <span>Email :</span>{" "}
+                              <a href="mailto:lohiethrvrl212@gamil.com.com">
+                                lohiethrvrl212@gamil.com
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dbox d-flex flex-row align-items-center ">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                          <FontAwesomeIcon icon={faGlobe} size="2x" />
+                        </div>
+                        <div class="text">
+                          <p className="d-flex flex-column">
+                            <span>Website :</span>{" "}
+                            <a href="#">lohieth.netlify.app</a>
+                          </p>
+                        </div>
+                      </div>
+                      </div>

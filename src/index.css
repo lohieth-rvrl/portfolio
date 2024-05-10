@@ -1,0 +1,233 @@
+.navbar {
+  z-index: 9999;
+  box-shadow: 0px 0px 10px black;
+  background-color: #1a1a17;
+  color: white;
+}
+.navbar .container a,.navbar .container button,.navbar .container button span{
+  color: white;
+}
+.menu{
+  background-color: #1a1a17;
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link::after{
+  color: red;
+}
+.navbar-light .navbar-brand:hover {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color:red;
+}
+
+
+#body1,#body2,#body3,#body4,#body5{
+  background-color: white;
+    
+}
+
+/* head */
+#con {
+  z-index: -1;
+  top: 50px;
+  position: sticky;
+  height: 90vh;
+  background-color: #b1b493;
+}
+
+#he {
+  color: #2b2b24;
+  width: 950px;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#he .name h1 {
+  font-size: 55px;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+#he .name p strong {
+  font-size: 60px;
+  font-weight: none;
+  font-variant: none;
+}
+#he h2 {
+  font-size: medium;
+}
+#he p {
+  font-size: 20px;
+  font-weight: none;
+  font-variant: none;
+}
+#he p p {
+  font-size: 15px;
+}
+#he button {
+  width: 200px;
+  border: 3px solid;
+}
+#he button o{
+  color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+}
+#he o {
+  color: #6c6e54;
+}
+
+/* About Contact Skills Exp */
+#con1 {
+  color: #6c6e54;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+#con1 button a{
+  color: black;
+}
+#con1 button:hover{
+  background-color: #6c6e54;
+  color: white;
+}
+#con1 button a:hover{
+  color: white;
+}
+#con2 {
+  color: #6c6e54;
+  background-color: white;
+}
+#con3 {
+  color: #6c6e54;
+  background-color: white;
+}
+#con4{
+  background-color: #b1b493; 
+}
+
+#con4 button {
+  width: 100px;
+  border: 3px solid;
+}
+#con4 button a{
+  color: black;
+}
+.box h1 {
+  font-variant: small-caps;
+  color: #2b2b24;
+}
+.box p {
+  font-size: smaller;
+}
+#test1 {
+  gap: 30px;
+}
+#test1 span {
+  writing-mode: vertical-rl;
+  scale: -1;
+  font-style: italic;
+  font-variant: small-caps;
+  display: flex;
+  justify-content: end;
+  color: #3f4031;
+}
+#test2 button {
+  width: 150px;
+  border: 3px solid;
+}
+.icons {
+  gap: 50px;
+}
+#row2{
+  background-color: #b1b493;
+  border:solid black;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* exp */
+.proj .i1 img{
+  transition: transform .2s;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px ;
+}
+.proj .i1 img:hover{
+  transform: scale(1.1);
+}
+
+
+/* contact */
+#con5 form input,form .ms{
+  border: 2px solid #b1b493;
+}
+#con5 form .tb{
+  color: white;
+  background-color: #b1b493;
+}
+#con5 form .ms::placeholder{
+  color: #b1b493;
+
+}
+#con5 form input::placeholder{
+  color: #b1b493;
+}
+#con5 .dbox{
+  color:  #3f4031;
+}
+#con5 .dbox .text span{
+  color: #3f4031;
+  font-weight: 600;
+}
+#con5 .dbox .text p ,a{
+  color: #b1b493;
+  text-decoration: none;
+}
+
+/* service */
+/* .s1{
+  border-radius: 10px;
+} */
+.s1{
+  transition: transform .2s;
+  border-radius: 10px;
+
+}
+.s1:hover{
+  transform: scale(1.11);  
+}
+
+/* All */
+#con7{
+  background-color: #1a1a17;
+  color: white;
+}
+.shadow{
+  transition: transform .2s;
+  border-radius: 10px;
+}
+.shadow:hover{
+  transform: scale(1.1);
+}
+#con71 ul li a:hover{
+  color: red;
+}
+#conall p {
+  color: #b1b493;
+}
+#conall span a{
+  color:white;
+}
+#conall span a:hover{
+  color: red;
+}
+/* #con7 #con71 span,p{
+  color:#b1b493;
+} */
+
