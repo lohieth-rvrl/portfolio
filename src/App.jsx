@@ -19,7 +19,6 @@ export default function App() {
       <Exp /> 
       <Contact/>
       <All/>
-      <ConForm />
     </div>
   );
 }
