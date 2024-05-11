@@ -15,40 +15,28 @@ export default function All() {
                   <br />
                   <ul className="list-unstyled">
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;Home
-                      </a>
                     </li>
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;About
-                      </a>
                     </li>
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;Skills
-                      </a>
                     </li>
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;Services
-                      </a>
                     </li>
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;Projects
-                      </a>
                     </li>
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;Contact me
-                      </a>
                     </li>
                   </ul>
                 </div>
@@ -57,28 +45,20 @@ export default function All() {
                   <br />
                   <ul className="list-unstyled">
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;Web Design
-                      </a>
                     </li>
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;Web Development
-                      </a>
                     </li>
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;Web Aplication
-                      </a>
                     </li>
                     <li className="p-2">
-                      <a href="">
                         <FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                         &nbsp;UI/UX Design
-                      </a>
                     </li>
                   </ul>
                 </div>

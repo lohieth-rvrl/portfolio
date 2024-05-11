@@ -206,7 +206,7 @@
 /* All */
 #con7{
   background-color: #1a1a17;
-  color: white;
+  color: #b1b493;
 }
 .shadow{
   transition: transform .2s;
@@ -215,7 +215,7 @@
 .shadow:hover{
   transform: scale(1.1);
 }
-#con71 ul li a:hover{
+#con71 ul li:hover{
   color: red;
 }
 #conall p {
