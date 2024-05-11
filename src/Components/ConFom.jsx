@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-function ContactForm() {
+function ConForm() {
   const [state, handleSubmit] = useForm("mrgndbwl");
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
@@ -35,9 +35,4 @@ function ContactForm() {
     </form>
   );
 }
-function App() {
-  return (
-    <ContactForm />
-  );
-}
-export default App;
+export default ConForm;

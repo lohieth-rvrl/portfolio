@@ -7,6 +7,7 @@ import {
   faGlobe,
   faCircle,
 } from "@fortawesome/free-solid-svg-icons";
+import ConForm from "./ConFom";
 // import "../Components/newFile.js"
 export default function Contact() {
   return (
@@ -35,7 +36,8 @@ export default function Contact() {
                 </div>
                 <div className="row">
                   <div className="col-md-6">
-                    <form action="#" class=" p-md-5 contact-form" id="contact-form">
+                    <ConForm />
+                    {/* <form action="#" class=" p-md-5 contact-form" id="contact-form">
                       <div class="row">
                         <div class="col-md-12 d-flex justify-content-between">
                           <div class="col-md-5 form-group">
@@ -103,7 +105,7 @@ export default function Contact() {
                           </div>
                         </div>
                       </div>
-                    </form>
+                    </form> */}
                   </div>
                   <div class="col-md-6 d-flex p-3">
                     <div class="row">

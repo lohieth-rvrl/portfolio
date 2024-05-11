@@ -7,6 +7,7 @@ import Head from "./Components/Head";
 import Contact from "./Components/Contact";
 import Service from "./Components/Service";
 import All from "./Components/All";
+import ConForm from "./Components/ConFom"
 export default function App() {
   return (
     <div id="page-top">
@@ -18,6 +19,7 @@ export default function App() {
       <Exp /> 
       <Contact/>
       <All/>
+      <ConForm />
     </div>
   );
 }
