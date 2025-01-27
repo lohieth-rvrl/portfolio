@@ -49,9 +49,9 @@ export default function Exp() {
                         </a>
                         
                       </div>
-                      {/* <div class="i1 col-md-6 p-3">
+                      <div class="i1 col-md-6 p-3">
                         <img src={imgf1} className="img img-fluid" alt="" />
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export default function Exp() {
                   <p>"Feel free to connect with me regarding any potential collaborations or opportunities. I'm always open to new projects and partnerships, and I'd love to discuss how we can work together to achieve our goals. Don't hesitate to reach out—I'm just a message away!"</p><br />
                   <button className="btn"><a href="#body5">Contact</a></button>
                 </div>
-                <div className="col-lg-4 d-flex justify-content-center p-0" id="con41">
+                <div className="col-lg-4 d-flex justify-content-center pb-5" id="con41">
                   <img className="w-50" src={fuck} alt="" />
                 </div>
               </div>

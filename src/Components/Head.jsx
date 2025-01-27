@@ -1,22 +1,106 @@
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 // import {hed} from "/img/pro1.png";
 export default function Head() {
   return (
     <>
       <div className="container-fluid" id="con">
+      <div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+
+</div>
 
         <div className="row justify-content-center">
-          <div className="col-md-12 pt-5 px-4" id="he">
-            <div className="name">
-              <h1>
-                <o>|</o>Hi I'm
-                <br />
-                <o>|</o>Lohieth Rangasamy
-              </h1>
+          <div className="col-md-6 mt-4 px-5" id="he">
+            <div className="hee mt-5">
+              <div className="name">
+                <h1>
+                  <o>|</o>Hi I'm
+                  <br />
+                  <o>|</o>Lohieth Rangasamy
+                </h1>
+              </div>
+              <p>
+                <b>Front End Developer & Web Designer</b>
+                <p>Step into my world of ideas and innovation. Let's create something amazing together!</p>
+              </p>
             </div>
-            <p>
-              <b>Front End Developer & Web Designer</b>
-              <p>I build solutions for the web, crafting digital experiences that <br />seamlessly blend creativity and functionality.</p>
-            </p>
+            
+          </div>
+          <div className="col-md-6 mt-2" id="he2">
+            {/* <div className="ig">
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </div> */}
+            <div id="himg" className="mt-5">
+            
+              <img src="src/assets/lohieth1.jpg" alt="" className="img img-fluid headimg"width="400" />
+            </div>
+            
+            
           </div>
           
         </div>

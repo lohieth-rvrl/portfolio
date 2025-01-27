@@ -43,7 +43,7 @@ export default function About() {
                       something amazing together!
                     </p>
                     <button class="btn border-2">
-                      <a href="/src/assets/resume_final(53).pdf">Download CV</a>
+                      <a href="/src/assets/lohieth.pdf">Download CV</a>
                     </button>
                   </div>
                   {/* <div className="col-lg-12">
