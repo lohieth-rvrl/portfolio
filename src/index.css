@@ -13,6 +13,7 @@
 }
 .navbar-light .navbar-nav .nav-link {
   color: white;
+  cursor: pointer;
 }
 .navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link::after{
   color: red;
@@ -196,6 +197,11 @@
   justify-content: end;
   color: #3f4031;
 }
+.ab{
+  color: #000;
+  border-radius: 10px;
+  background-color: #f3f5e7;
+}
 #test2 button {
   width: 150px;
   border: 3px solid;
@@ -211,14 +217,22 @@
 }
 
 /* exp */
+.proj{
+  background-color: #f3f5e7;
+  border-radius: 10px ;
+}
 .proj .i1 img{
   transition: transform .2s;
   border-radius: 10px;
   box-shadow: 1px 1px 8px ;
 }
 .proj .i1 img:hover{
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
+#test2 a:hover{
+  color: black;
+}
+
 
 
 /* contact */
@@ -255,17 +269,6 @@
 }
 
 /* service */
-/* .s1{
-  border-radius: 10px;
-} */
-.s1{
-  transition: transform .2s;
-  border-radius: 10px;
-
-}
-.s1:hover{
-  transform: scale(1.11);  
-}
 
 /* All */
 #con7{
@@ -277,17 +280,21 @@
   border-radius: 10px;
 }
 .shadow:hover{
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
-#con71 ul li:hover{
+#con71 ul li a:hover,#con71 ul li:hover{
   color: red;
 }
-#conall p {
-  color: #b1b493;
+
+#conall{
+  color: #000;
+  background-color: #f3f5e7;
+  border-radius: 10px;
 }
-#conall span a{
-  color:#b1b493;
+#none a{
+  color: #2b2b24;
 }
+  /* #cona   */
 #conall span a:hover{
   color: red;
 }

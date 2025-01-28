@@ -23,7 +23,7 @@ export default function Skills() {
               id="con2"
             >
               <div class="row align-content-start my-5">
-                <div class="col-md-12 d-flex" id="test1">
+                <div class="col-md-12 d-flex my-4" id="test1">
                   <span>---- My Shills ----</span>
                   <div class="box">
                     <h1>

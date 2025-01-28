@@ -33,7 +33,7 @@ export default function About() {
                       </p>
                     </div>
                   </div>
-                  <div class="col-lg-6 col-sm-6 px-4 my-5" id="test2">
+                  <div class="col-lg-6 col-sm-6 px-4 py-3 my-5 ab" id="test2">
                     <p>
                       Hi there! I'm Lohieth, a front-end developer who loves
                       turning design ideas into awesome websites. I'm all about

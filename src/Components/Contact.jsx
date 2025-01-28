@@ -17,7 +17,7 @@ export default function Contact() {
           <div className="col-lg-12">
             <div className="container py-5 bg-light " id="con5">
               <div className="row gap-4">
-                <div class="col-md-12 d-flex float-lg-start" id="test1">
+                <div class="col-md-12 d-flex float-lg-start my-3" id="test1">
                   <span>---- Contact Me ----</span>
                   <div class="box">
                     <h1>
@@ -37,77 +37,8 @@ export default function Contact() {
                 <div className="row">
                   <div className="col-md-6">
                     <ConForm />
-                    {/* <form action="#" class=" p-md-5 contact-form" id="contact-form">
-                      <div class="row">
-                        <div class="col-md-12 d-flex justify-content-between">
-                          <div class="col-md-5 form-group">
-                            <input
-                              type="text"
-                              class="form-control"
-                              placeholder="Your Name"
-                              fdprocessedid="mpdmc9"
-                            />
-                          </div>
-                          <div class="col-md-5 form-group">
-                            <input
-                              type="text"
-                              class="form-control"
-                              placeholder="Your Email"
-                              fdprocessedid="om9v4c"
-                            />
-                          </div>
-                        </div>
-                        <br />
-                        <br />
-                        <br />
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              class="form-control"
-                              placeholder="Subject"
-                              fdprocessedid="d4gtxq"
-                            />
-                          </div>
-                        </div>
-                        <br />
-                        <br />
-                        <br />
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <textarea
-                              name=""
-                              id=""
-                              cols="30"
-                              rows="7"
-                              class="ms form-control"
-                              placeholder="Message"
-                            ></textarea>
-                          </div>
-                        </div>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <div class="col-md-12">
-                          <div class="form-group d-flex justify-content-center">
-                            <input
-                              type="submit"
-                              value="Send Message"
-                              class="tb btn py-3 px-5"
-                              fdprocessedid="a73baa"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </form> */}
                   </div>
-                  <div class="col-md-6 d-flex p-3">
+                  <div class="col-md-6 d-flex p-3 my-3">
                     <div class="row">
                       <div class="dbox w-100 d-flex">
                         <div class="icon d-flex align-items-center justify-content-center px-2">

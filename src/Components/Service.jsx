@@ -46,8 +46,7 @@ export default function Service(){
                           />{" "}
                           &nbsp;Web Development
                         </h6>
-                        <p>
-"Building dynamic websites to boost your online presence and engage your audience seamlessly."
+                        <p>"Building dynamic websites to boost your online presence and engage your audience seamlessly."
                         </p>
                       </div>
                     </div>

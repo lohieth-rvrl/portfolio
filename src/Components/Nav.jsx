@@ -2,28 +2,45 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faCircleHalfStroke,faMasksTheater} from "@fortawesome/free-solid-svg-icons"
+import { faCircleHalfStroke, faMasksTheater } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 function CollapsibleExample() {
   return (
+    <div>
+      <div id="head"></div>
     <Navbar collapseOnSelect expand="lg" className="py-2" fixed="top" id="navb">
       <Container className="px-2">
-        <Navbar.Brand href="#"><FontAwesomeIcon icon={faMasksTheater} size="2x"/></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" >Menu</Navbar.Toggle>
+        <Navbar.Brand href="#">
+          <FontAwesomeIcon icon={faMasksTheater} size="2x" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav">Menu</Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-          </Nav>
-          <Nav className="menu d-flex align-item-center px-2 gap-4">
-            <Nav.Link href="#con">Home</Nav.Link>
-            <Nav.Link href="#body1">About</Nav.Link>
-            <Nav.Link href="#body2">Skills</Nav.Link>
-            <Nav.Link href="#body3">Service</Nav.Link>
-            <Nav.Link href="#body4">Projects</Nav.Link>
-            <Nav.Link href="#body5">Contact</Nav.Link>
+          <Nav className="me-auto"></Nav>
+          <Nav className="menu d-flex align-items-center px-2 gap-4">
+            <Nav.Link as={Link} to="head"  spy={true} smooth={true} offset={-70} duration={500} activeClass="active">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="body1" spy={true} smooth={true} offset={-70} duration={500} activeClass="active">
+              About
+            </Nav.Link>
+            <Nav.Link as={Link} to="body2" path="/about" spy={true} smooth={true} offset={-70} duration={500} activeClass="active">
+              Skills
+            </Nav.Link>
+            <Nav.Link as={Link} to="body3" spy={true} smooth={true} offset={-70} duration={500} activeClass="active">
+              Service
+            </Nav.Link>
+            <Nav.Link as={Link} to="body4" spy={true} smooth={true} offset={-70} duration={500} activeClass="active">
+              Projects
+            </Nav.Link>
+            <Nav.Link as={Link} to="body5" spy={true} smooth={true} offset={-70} duration={500} activeClass="active">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
   );
 }
 

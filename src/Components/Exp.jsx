@@ -1,6 +1,7 @@
 import imgf1 from "/img/pro1.png";
 import imgf2 from "/img/pro2.png";
 import imgf3 from "/img/pro3.png";
+import imgf4 from "/img/Edtech.png";
 import fuck from "../assets/fu.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCircle} from "@fortawesome/free-solid-svg-icons"
@@ -28,20 +29,23 @@ export default function Exp() {
                 </div>
                 <div class="col-md-8" id="test2">
                   <div class="row">
-                    <div class="proj d-flex flex-wrap px-3">
+                    <div class="proj d-flex flex-wrap px-2 py-2">
                       <div class="i1 col-md-6 p-3">
-                        <a href="https://vinthub.netlify.app/">
+                        <a href="https://www.linkedin.com/posts/lohieth-r_vintagecars-vinthub-classiccarenthusiast-activity-7128222452295340033-L3ME?utm_source=share&utm_medium=member_desktop">
                           <img src={imgf1} className="img img-fluid" alt="" />
                         </a>
                         
                       </div>
                       <div class="i1 col-md-6 p-3">
-                        <img
+                        <a href="">
+                          <img
                           class="card-img"
                           src={imgf2}
                           className="img img-fluid"
                           alt=""
                         />
+                        </a>
+                        
                       </div>
                       <div class="i1 col-md-6 p-3">
                         <a href="">
@@ -50,7 +54,9 @@ export default function Exp() {
                         
                       </div>
                       <div class="i1 col-md-6 p-3">
-                        <img src={imgf1} className="img img-fluid" alt="" />
+                      <a href="https://www.linkedin.com/posts/lohieth-r_fullstack-python-vercel-activity-7289626972714897408-mP1B?utm_source=share&utm_medium=member_desktop">
+                          <img src={imgf4} className="img img-fluid" alt="" />
+                        </a>
                       </div>
                     </div>
                   </div>

@@ -6,69 +6,69 @@ export default function Head() {
   return (
     <>
       <div className="container-fluid" id="con">
-      <div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
+        <div class="snowflakes" aria-hidden="true">
+          <div class="snowflake">
+          ❅
+          </div>
+          <div class="snowflake">
+          ❅
+          </div>
+          <div class="snowflake">
+          ❆
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❅
+          </div>
+          <div class="snowflake">
+          ❆
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❅
+          </div>
+          <div class="snowflake">
+          ❆
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❅
+          </div>
+          <div class="snowflake">
+          ❅
+          </div>
+          <div class="snowflake">
+          ❆
+          </div>
+          <div class="snowflake">
+          ❄
+          </div>
+          <div class="snowflake">
+          ❅
+          </div>
 
-</div>
+        </div>
 
         <div className="row justify-content-center">
           <div className="col-md-6 mt-4 px-5" id="he">
@@ -88,16 +88,9 @@ export default function Head() {
             
           </div>
           <div className="col-md-6 mt-2" id="he2">
-            {/* <div className="ig">
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-            </div> */}
             <div id="himg" className="mt-5">
             
-              <img src="src/assets/lohieth1.jpg" alt="" className="img img-fluid headimg"width="400" />
+              <img src="src/assets/lohieth1.jpg" className="img img-fluid headimg" width="400" alt="Lohieth Rangasamy, Front End Developer & Web Designer" />
             </div>
             
             
