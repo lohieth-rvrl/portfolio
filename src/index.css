@@ -16,13 +16,19 @@
   cursor: pointer;
 }
 .navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link::after{
-  color: red;
+  color:gold;
 }
-.navbar-light .navbar-brand:hover {
-  color: white;
+.navbar-light .navbar-brand{
+  color: white !important;
+  font-variant: small-caps;
+
+}
+.navbar-light .navbar-brand .crown:hover {
+  color: gold !important;
+  border: none;
 }
 .navbar-light .navbar-nav .nav-link.active{
-  color:red;
+  color:gold;
 }
 
 
@@ -44,6 +50,7 @@
 
 
 #con {
+  user-select: none;
   z-index: -1;
   top: 50px;
   position: sticky;
@@ -94,11 +101,10 @@
 #he o {
   color: #6c6e54;
 }
-/* .hee{
-  display: flex;
-  justify-content: start;
-  align-items: top;
-} */
+.hee p b{
+  font-variant: small-caps;
+
+}
 
 #he2{
   display: flex;
@@ -140,6 +146,16 @@
       transform: translateY(0);
   }
 }
+
+.blink {
+  animation: blinker 0.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0.5;
+  }
+}
+
 
 /* About Contact Skills Exp */
 #con1 {
@@ -283,7 +299,7 @@
   transform: scale(1.03);
 }
 #con71 ul li a:hover,#con71 ul li:hover{
-  color: red;
+  color: gold;
 }
 
 #conall{
@@ -296,7 +312,7 @@
 }
   /* #cona   */
 #conall span a:hover{
-  color: red;
+  color: gold;
 }
 /* #con7 #con71 span,p{
   color:#b1b493;

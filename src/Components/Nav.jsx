@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleHalfStroke, faMasksTheater } from "@fortawesome/free-solid-svg-icons";
+import { faCircleHalfStroke, faMasksTheater, faGlobe, faCrown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 function CollapsibleExample() {
@@ -11,8 +11,8 @@ function CollapsibleExample() {
       <div id="head"></div>
     <Navbar collapseOnSelect expand="lg" className="py-2" fixed="top" id="navb">
       <Container className="px-2">
-        <Navbar.Brand href="#">
-          <FontAwesomeIcon icon={faMasksTheater} size="2x" />
+        <Navbar.Brand href="/">
+          <FontAwesomeIcon icon={faCrown} className="crown" size="2x" />Lr
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav">Menu</Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -83,7 +83,8 @@ export default function All() {
                   <p className="my-4 p-2 mb-0 slo">"Rooted in Creativity, Driven by Results."</p>
                 </div>
                 <div className="col-md-12 d-flex justify-content-center mt-5">
-                  <p>Copyright &copy;2024 All rights reserved</p>
+                <p>&copy; {new Date().getFullYear().get} Lohieth Rangasamy. All rights reserved.</p>
+                  {/* <p>Copyright &copy;2024 All rights reserved</p> */}
                 </div>
               </div>
             </div>

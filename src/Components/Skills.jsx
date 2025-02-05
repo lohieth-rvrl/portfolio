@@ -24,7 +24,7 @@ export default function Skills() {
             >
               <div class="row align-content-start my-5">
                 <div class="col-md-12 d-flex my-4" id="test1">
-                  <span>---- My Shills ----</span>
+                  <span className="blink">---- My Shills ----</span>
                   <div class="box">
                     <h1>
                       <FontAwesomeIcon

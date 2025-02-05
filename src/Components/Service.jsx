@@ -9,9 +9,9 @@ export default function Service(){
           <div className="container bg-light d-flex justify-content-center py-5" id="con6">
             <div className="row align-content-center-start ">
               <div className="col-md-12 d-flex" id="test1">
-                <span>---- Service ----</span>
+                <span className="blink">---- Service ----</span>
                 <div className="box">
-                  <h1><FontAwesomeIcon icon={faCircle} style={{ color: "#2b2b24" }}/>{" "}
+                  <h1><FontAwesomeIcon icon={faCircle} style={{ color: "#2b2b24" } }/>{" "}
                   Service I Provide:</h1>
                   <p>"Passionate front-end developer dedicated to craftingseamless user experiences and bringing designs to life  through code."</p>
                 </div>
@@ -25,7 +25,7 @@ export default function Service(){
                           <FontAwesomeIcon
                             icon={faCirclePlus}
                             style={{ color: "#3f4031" }}
-                            size="4x"
+                            size="3x"
                           />{" "}
                           &nbsp;Web Design
                         </h6>
@@ -42,7 +42,7 @@ export default function Service(){
                           <FontAwesomeIcon
                             icon={faCirclePlus}
                             style={{ color: "#3f4031" }}
-                            size="4x"
+                            size="3x"
                           />{" "}
                           &nbsp;Web Development
                         </h6>
@@ -56,7 +56,7 @@ export default function Service(){
                           <FontAwesomeIcon
                             icon={faCirclePlus}
                             style={{ color: "#3f4031" }}
-                            size="4x"
+                            size="3x"
                           />{" "}
                           &nbsp;Web &nbsp;Application
                         </h6>
@@ -71,7 +71,7 @@ export default function Service(){
                           <FontAwesomeIcon
                             icon={faCirclePlus}
                             style={{ color: "#3f4031" }}
-                            size="4x"
+                            size="3x"
                           />{" "}
                           &nbsp;UI/UX Design
                         </h6>

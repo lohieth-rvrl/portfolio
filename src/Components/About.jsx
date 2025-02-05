@@ -1,7 +1,8 @@
 // import "../index.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
-import { motion } from "framer-motion";
+import resume from "/img/lohieth (4).pdf";
+
 
 let sections
 export default function About() {
@@ -17,14 +18,14 @@ export default function About() {
               >
                 <div class="row align-content-start g-2 ">
                   <div class="col-lg-6 col-sm-6 d-flex my-5" id="test1">
-                    <span>---- About Me ----</span>
+                    <span className="blink">---- About Me ----</span>
                     <div class="box">
                       <h1>
                         <FontAwesomeIcon
                           icon={faCircle}
                           style={{ color: "#2b2b24" }}
                         />{" "}
-                        Who I Am?
+                        Who I Am ?
                       </h1>
                       <p>
                         "Passionate front-end developer dedicated to crafting
@@ -35,7 +36,7 @@ export default function About() {
                   </div>
                   <div class="col-lg-6 col-sm-6 px-4 py-3 my-5 ab" id="test2">
                     <p>
-                      Hi there! I'm Lohieth, a front-end developer who loves
+                      Hi there! I'm Lohieth, a Full-Stack Developer who loves
                       turning design ideas into awesome websites. I'm all about
                       making things look great and work smoothly. From creating
                       user-friendly layouts to adding cool features, I enjoy
@@ -43,26 +44,9 @@ export default function About() {
                       something amazing together!
                     </p>
                     <button class="btn border-2">
-                      <a href="/src/assets/lohieth.pdf">Download CV</a>
+                      <a href={resume}>Download CV</a>
                     </button>
                   </div>
-                  {/* <div className="col-lg-12">
-                    <motion.div
-                      animate={{ x: 500 }}
-                      transition={{ duration: Infinity }}
-                      onScroll={() => {
-                        set;
-                      }}
-                    >
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Nihil dignissimos voluptates neque nam ducimus
-                        dolor debitis impedit repudiandae dolore. Rerum fugiat
-                        quidem dolorem pariatur asperiores perferendis numquam
-                        nisi? Consectetur, soluta!
-                      </p>
-                    </motion.div>
-                  </div> */}
                 </div>
               </div>
             </div>

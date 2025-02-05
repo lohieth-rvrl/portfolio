@@ -17,7 +17,7 @@ export default function Exp() {
             >
               <div class="row align-content-start g-5">
                 <div class="col-md-4 d-flex float-lg-start" id="test1">
-                  <span>---- My Works ----</span>
+                  <span className="blink">---- My Works ----</span>
                   <div class="box">
                     <h1><FontAwesomeIcon icon={faCircle} style={{color: "#2b2b24",}} /> See My works:</h1>
                     <p>
