@@ -31,7 +31,7 @@ export default function Skills() {
                         icon={faCircle}
                         style={{ color: "#2b2b24" }}
                       />{" "}
-                      My Programming Skills:
+                      Programming Skills:
                     </h1>
                     <p>
                       "Skilled programmer proficient in a wide array of
