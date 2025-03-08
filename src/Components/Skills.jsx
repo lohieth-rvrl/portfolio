@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ScrollAnimation from 'react-animate-on-scroll';
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import {
   faPython,
@@ -25,7 +26,8 @@ export default function Skills() {
               <div class="row align-content-start my-5">
                 <div class="col-md-12 d-flex my-4" id="test1">
                   <span className="blink">---- My Shills ----</span>
-                  <div class="box">
+                  <ScrollAnimation animateIn="bounceInLeft">
+                    <div class="box">
                     <h1>
                       <FontAwesomeIcon
                         icon={faCircle}
@@ -38,6 +40,8 @@ export default function Skills() {
                       programming languages and frameworks."
                     </p>
                   </div>
+                  </ScrollAnimation>
+                  
                 </div>
                 <div class="col-md-12 px-2" id="test2">
                   <div class="icons d-flex justify-content-center flex-wrap">
