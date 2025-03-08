@@ -26,34 +26,34 @@ export default function Head() {
       <div className="container-fluid" id="con">
         <div class="snowflakes" aria-hidden="true">
           <div class="snowflake">
-          <FontAwesomeIcon icon={faNodeJs} size="2x"/>
+            <FontAwesomeIcon icon={faNodeJs} size="2x" />
           </div>
           <div class="snowflake">
             ❅
           </div>
           <div class="snowflake">
-          <FontAwesomeIcon icon={faReact} size="2x"/>
+            <FontAwesomeIcon icon={faReact} size="2x" />
           </div>
           <div class="snowflake">
             ❄
           </div>
           <div class="snowflake">
-          <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
 
           </div>
           <div class="snowflake">
             ❆
           </div>
           <div class="snowflake">
-          <FontAwesomeIcon icon={faHtml5} size="2x"/>
-            
+            <FontAwesomeIcon icon={faHtml5} size="2x" />
+
           </div>
           <div class="snowflake">
             ❅
           </div>
           <div class="snowflake">
-          <FontAwesomeIcon icon={faCss3} size="2x"/>
-            
+            <FontAwesomeIcon icon={faCss3} size="2x" />
+
           </div>
 
         </div>
@@ -63,18 +63,18 @@ export default function Head() {
             <div className="hee mt-5">
               <div className="name">
                 <h1>
-                  <o>|</o>Hi I'm
+                  <o className="blink">|</o>Hi I'm
                   <br />
-                  <o>|</o>Lohieth Rangasamy
+                  <o className="blink">|</o>Lohieth Rangasamy
                 </h1>
               </div>
               <p>
-                
+
                 <b>I'm a <ReactTyped strings={[
-                    "FULL STACK DEVELOPER.",
-                    "WEB DESIGNER.",
-                    "CODER.",
-                  ]} typeSpeed={40}
+                  "FULL STACK DEVELOPER.",
+                  "WEB DESIGNER.",
+                  "CODER.",
+                ]} typeSpeed={40}
                   backSpeed={50}
                   loop /></b>
                 <p>Step into my world of ideas and innovation. Let's create something amazing together!</p>
@@ -83,7 +83,7 @@ export default function Head() {
 
           </div>
           <div id="himg" className="mt-5 pt-5">
-            {/* <div className="rotating-icons mt-4">
+            <div className="rotating-icons mt-4">
               <i className="icon">|</i>
               <i className="icon"></i>
               <i className="icon">__</i>
@@ -95,7 +95,7 @@ export default function Head() {
               <i className="icon">__</i>
 
               <i className="icon"></i>
-            </div> */}
+            </div>
             <img src={loki} className="img img-fluid headimg" width="400" alt="Lohieth Rangasamy, Front End Developer & Web Designer" />
           </div>
         </div>

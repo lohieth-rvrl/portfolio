@@ -1,4 +1,4 @@
-// import "../index.css"
+import "../index.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -22,12 +22,8 @@ export default function About() {
                     <span className="blink">---- About Me ----</span>
                     <ScrollAnimation animateIn="bounceInLeft">
                       <div class="box">
-                        <h1>
-                          <ScrollAnimation animateIn='fadeIn'><FontAwesomeIcon
-                            icon={faCircle}
-                            style={{ color: "#2b2b24" }}
-                          />{" "}Who I Am ?</ScrollAnimation>
-
+                        <h1><ScrollAnimation animateIn=' bounce' animateOnce={false} className="bounce-infinite">
+                          <FontAwesomeIcon icon={faCircle} style={{ color: "#2b2b24", }} /></ScrollAnimation>Who I Am ?
                         </h1>
                         <p>
                           "Passionate front-end developer dedicated to crafting
@@ -50,11 +46,11 @@ export default function About() {
                       </p>
                       <ScrollAnimation animateIn='wobble'
                         initiallyVisible={true}>
-                          <button class="btn border-2">
-                        <a href={resume}>Download CV</a>
-                      </button>
+                        <button class="btn border-2">
+                          <a href={resume}>Download CV</a>
+                        </button>
                       </ScrollAnimation>
-                      
+
                     </ScrollAnimation>
                   </div>
 

@@ -28,79 +28,104 @@ export default function Skills() {
                   <span className="blink">---- My Shills ----</span>
                   <ScrollAnimation animateIn="bounceInLeft">
                     <div class="box">
-                    <h1>
-                      <FontAwesomeIcon
-                        icon={faCircle}
-                        style={{ color: "#2b2b24" }}
-                      />{" "}
-                      Programming Skills:
-                    </h1>
-                    <p>
-                      "Skilled programmer proficient in a wide array of
-                      programming languages and frameworks."
-                    </p>
-                  </div>
+                      <h1><ScrollAnimation animateIn=' bounce' animateOnce={false} className="bounce-infinite">
+                        <FontAwesomeIcon icon={faCircle} style={{ color: "#2b2b24", }} /></ScrollAnimation>
+                        Programming Skills:
+                      </h1>
+                      <p>
+                        "Skilled programmer proficient in a wide array of
+                        programming languages and frameworks."
+                      </p>
+                    </div>
                   </ScrollAnimation>
-                  
+
                 </div>
                 <div class="col-md-12 px-2" id="test2">
                   <div class="icons d-flex justify-content-center flex-wrap">
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faPython} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">Python</p>
-                    </div>
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faC} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">C-Prog</p>
-                    </div>
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faHtml5} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">HTML</p>
-                    </div>
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faCss3} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">CSS</p>
-                    </div>
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faJs} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">
-                        Javascript
-                      </p>
-                    </div>
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faBootstrap} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">Bootstrap</p>
-                    </div>
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faReact} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">React</p>
-                    </div>
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faNodeJs} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">Django</p>
-                    </div>
-                    <div className="p-3 rounded-lg shadow">
-                      <span className="p-5">
-                        <FontAwesomeIcon icon={faMdb} size="4x" />
-                      </span>
-                      <p className="d-flex justify-content-center">MongoDB</p>
-                    </div>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faPython} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">Python</p>
+                      </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faC} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">C-Prog</p>
+                      </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faHtml5} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">HTML</p>
+                      </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faCss3} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">CSS</p>
+                      </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faJs} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">
+                          Javascript
+                        </p>
+                      </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faBootstrap} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">Bootstrap</p>
+                      </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faReact} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">React</p>
+                      </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faNodeJs} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">Django</p>
+                      </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='flipInY'
+                      animateOut='flipOutY'>
+                      <div className="p-3 rounded-lg shadow">
+                        <span className="p-5">
+                          <FontAwesomeIcon icon={faMdb} size="4x" />
+                        </span>
+                        <p className="d-flex justify-content-center">MongoDB</p>
+                      </div>
+                    </ScrollAnimation>
+
                   </div>
                 </div>
               </div>
