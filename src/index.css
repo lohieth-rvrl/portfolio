@@ -27,7 +27,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link::after {
-  color: gold;
+  color: #ff8c00;
 }
 
 .navbar-light .navbar-brand {
@@ -37,12 +37,12 @@
 }
 
 .navbar-light .navbar-brand .crown:hover {
-  color: gold !important;
+  color: #ff8c00 !important;
   border: none;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: gold;
+  color: #ff8c00;
 }
 
 
@@ -350,10 +350,10 @@
   transform: translate(-50%, -50%); */
 }
 
-.headimg {
+/* .headimg {
   border-radius: 50%;
   border: 10px solid #2b2b24;
-}
+} */
 
 .ig {
   display: flex;
@@ -396,13 +396,26 @@
   background-color: white;
 }
 
+#worksbtn a{
+color: black !important; 
+}
+
+#worksbtn:hover {
+  background-color: #6c6e54 !important;
+  color: white !important;
+}
+
+#worksbtn a:hover {
+  color: white !important;
+}
+
 #con1 button a {
   color: black;
 }
 
 #con1 button:hover {
   background-color: #6c6e54;
-  color: white;
+  color: white !important;
 }
 
 #con1 button a:hover {
@@ -426,7 +439,7 @@
 
 #con4 button {
   width: 100px;
-  border: 3px solid;
+  border: 3px solid black;
 }
 
 #con4 button a {
@@ -564,7 +577,7 @@ a {
 
 #con71 ul li a:hover,
 #con71 ul li:hover {
-  color: gold;
+  color: #ff8c00;
 }
 
 #conall {
@@ -579,7 +592,7 @@ a {
 
 /* #cona   */
 #conall span a:hover {
-  color: gold;
+  color: #ff8c00;
 }
 
 /* #con7 #con71 span,p{

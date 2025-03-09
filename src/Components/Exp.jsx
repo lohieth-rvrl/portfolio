@@ -7,8 +7,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import ScrollAnimation from 'react-animate-on-scroll';
 import "../index.css"
+import { useNavigate } from "react-router-dom";
 
 export default function Exp() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="container-fluid" id="body4">
@@ -33,8 +35,9 @@ export default function Exp() {
                       </p>
                       <ScrollAnimation animateIn='wobble'
                         initiallyVisible={true}>
-                        <button class="btn border-2">
-                          <a href="">see all my Works</a>
+                        <button id="worksbtn" className="btn border border-2" onClick={() => navigate("/portfolio/works")}>
+                          <a href="">See All My Works</a>
+                          
                         </button>
                       </ScrollAnimation>
                     </div>
@@ -103,7 +106,7 @@ export default function Exp() {
 
                   <p>"Feel free to connect with me regarding any potential collaborations or opportunities. I'm always open to new projects and partnerships, and I'd love to discuss how we can work together to achieve our goals. Don't hesitate to reach out—I'm just a message away!"</p><br />
                   <ScrollAnimation animateIn='wobble bounceInLeft'>
-                    <button className="btn text-center"><a href="#body5">Contact</a></button>
+                    <button className="btn border border-2 text-center" id="worksbtn"><a href="#body5">Contact</a></button>
                   </ScrollAnimation>
                 </div>
                 <div className="col-lg-4 d-flex justify-content-center align-items-center p-2" id="con41">

@@ -35,7 +35,7 @@ export default function About() {
                   </div>
 
                   <div class="col-lg-6 col-sm-6 px-4 py-3 my-5 ab" id="test2">
-                    <ScrollAnimation animateIn="bounceInRight">
+                    <ScrollAnimation animateIn="fadeInUp">
                       <p>
                         Hi there! I'm Lohieth, a Full-Stack Developer who loves
                         turning design ideas into awesome websites. I'm all about

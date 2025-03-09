@@ -45,7 +45,7 @@ export default function Contact() {
                   </div>
                   <div class="col-md-6 d-flex p-3 justify-content-center">
                     <div class="row d-flex justify-content-center align-items-center proj">
-                      <ScrollAnimation animateIn="bounceInRight">
+                      <ScrollAnimation animateIn="fadeInUp">
                         <div class="dbox w-100">
                           <div class="icon1 d-flex align-items-center justify-content-center px-2">
                             <FontAwesomeIcon icon={faLocationDot} size="2x" />

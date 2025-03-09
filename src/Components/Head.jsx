@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { ReactTyped } from "react-typed";
 // import loki from "/img/lohieth1.jpg";
-import loki from "../assets/lohieth1.jpg"
+import loki from "../assets/loki3.png"
+import ScrollAnimation from 'react-animate-on-scroll';
 import "../css/orbit.css"
 
 import {
@@ -62,14 +63,17 @@ export default function Head() {
           <div className="col-md-6 mt-4 px-5" id="he">
             <div className="hee mt-5">
               <div className="name">
+              <ScrollAnimation animateIn='fadeIn' animateOnce={false}>
                 <h1>
                   <o className="blink">|</o>Hi I'm
                   <br />
                   <o className="blink">|</o>Lohieth Rangasamy
                 </h1>
+              </ScrollAnimation>
+                
               </div>
-              <p>
-
+              <ScrollAnimation animateIn='fadeIn' animateOnce={false}>
+                <p>
                 <b>I'm a <ReactTyped strings={[
                   "FULL STACK DEVELOPER.",
                   "WEB DESIGNER.",
@@ -79,24 +83,27 @@ export default function Head() {
                   loop /></b>
                 <p>Step into my world of ideas and innovation. Let's create something amazing together!</p>
               </p>
+              </ScrollAnimation>
+              
             </div>
 
           </div>
           <div id="himg" className="mt-5 pt-5">
             <div className="rotating-icons mt-4">
-              <i className="icon">|</i>
+                <i className="icon blink"><ScrollAnimation animateIn=' bounceInDown' animateOnce={false}>☺</ScrollAnimation></i>
+              
               <i className="icon"></i>
-              <i className="icon">__</i>
+              <i className="icon blink"><ScrollAnimation animateIn='bounceInRight' animateOnce={false}>__</ScrollAnimation></i>
 
               <i className="icon"></i>
-              <i className="icon">|</i>
+              <i className="icon blink">|</i>
 
               <i className="icon"></i>
-              <i className="icon">__</i>
+              <i className="icon blink"><ScrollAnimation animateIn='bounceInLeft' animateOnce={false}>__</ScrollAnimation></i>
 
               <i className="icon"></i>
             </div>
-            <img src={loki} className="img img-fluid headimg" width="400" alt="Lohieth Rangasamy, Front End Developer & Web Designer" />
+            <img src={loki} className="img img-fluid headimg" width="500" alt="Lohieth Rangasamy, Front End Developer & Web Designer" />
           </div>
         </div>
       </div>
