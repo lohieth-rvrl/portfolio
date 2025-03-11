@@ -5,13 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleHalfStroke, faMasksTheater, faGlobe, faCrown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
-function CollapsibleExample() {
+function CollapsibleExample() { 
   return (
     <div>
-      <div id="head"></div>
     <Navbar collapseOnSelect expand="lg" className="py-2" fixed="top" id="navb">
       <Container className="px-2">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/portfolio/">
           <FontAwesomeIcon icon={faCrown} className="crown" size="2x" />Lr
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav">Menu</Navbar.Toggle>

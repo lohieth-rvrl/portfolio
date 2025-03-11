@@ -1,22 +1,12 @@
-.works-container {
-    text-align: center;
-    padding: 40px 20px;
-    background: #f8f9fa;
-  }
+
+
   
-  .section-title {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .grid {
+  /* .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
     padding: 0 10px;
-  }
+  } */
   
   .grid-item {
     position: relative;

@@ -8,49 +8,69 @@ import imgf1 from "/img/pro1.png";
 import imgf2 from "/img/pro2.png";
 import imgf3 from "/img/DrawHub.png";
 import imgf4 from "/img/Edtech.png";
+import imgf5 from "/img/Bmi-calculator.png";
+import imgf6 from "/img/subway.png";
 
 export default function Works() {
-  alert("still under development !!");
   const projects = [
     {
+      // VINTHUB
       img: imgf1,
       demo: "https://vinthub.netlify.app/",
       github: "https://github.com/lohieth-rvrl/vinthub.com",
       title: "Vinthub - Vintage Car Platform",
     },
     {
+      // BrandCycle
       img: imgf2,
       demo: "#",
       github: "https://github.com/lohieth-rvrl/BrandCycle",
-      title: "Project 2",
+      title: "BrandCycle - E-commerce Platform",
     },
     {
+      // DrawHub
       img: imgf3,
       demo: "https://drawhub.netlify.app/",
-      github: "#",
-      title: "Project 3",
+      github: "https://github.com/lohieth-rvrl/",
+      title: "DrawHub",
     },
     {
+      // Edtech Platform
       img: imgf4,
-      demo: "https://www.linkedin.com/posts/lohieth-r_fullstack-python-vercel-activity-7289626972714897408-mP1B?utm_source=share&utm_medium=member_desktop",
+      demo: "https://ed-tech-alpha-eight.vercel.app/",
       github: "#",
-      title: "Full-Stack AI Project",
+      title: "Edtech Platform",
     },
     {
-      img: imgf4,
-      demo: "https://www.linkedin.com/posts/lohieth-r_fullstack-python-vercel-activity-7289626972714897408-mP1B?utm_source=share&utm_medium=member_desktop",
-      github: "#",
-      title: "Full-Stack AI Project",
+      // BMI Calculator
+      img: imgf5,
+      demo: "https://lohieth-rvrl.github.io/BMI_calculator/",
+      github: "https://github.com/lohieth-rvrl/BMI_calculator",
+      title: "BMI Calculator",
+    },
+    {
+      // Subway
+      img: imgf6,
+      demo: "https://lohieth-rvrl.github.io/Subway_passanger_count/",
+      github: "https://github.com/lohieth-rvrl/Subway_passanger_count",
+      title: "Subway-passanger-count",
     },
   ];
 
   return (
-    <div className="works-container vh-100">
-      <h2 className="section-title">My Works</h2>
-      <div className="grid">
+    <div className="container text-center py-5 vh-100">
+      <h1>My Works</h1>
+      <div className="row">
+        <div className="col-md-12 pb-5">
+          <p>
+            "Here are some of the projects I've worked on. Click on the buttons
+            to view the demo or the code."
+          </p>
+        </div>
         {projects.map((project, index) => (
-          <div className="grid-item" key={index}>
-            <ScrollAnimation animateIn="fadeIn">
+          <div className="col-md-4 mb-3" key={index}>
+            <div className="box p grid-item">
+              <ScrollAnimation animateIn="bounce">
               <img src={project.img} alt={project.title} className="work-img" />
               <div className="overlay">
                 <h3>{project.title}</h3>
@@ -75,6 +95,8 @@ export default function Works() {
 
               </div>
             </ScrollAnimation>
+            </div>
+            
           </div>
         ))}
       </div>

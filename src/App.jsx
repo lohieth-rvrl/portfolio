@@ -10,20 +10,45 @@ import Service from "./Components/Service";
 import All from "./Components/All";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Works from "./Components/Works";
+import { useMouseMove, useValue, animate } from "react-ui-animate";
 
+const CURSOR_SIZE = 40;
 export default function App() {
+  const x = useValue(0);
+  const y = useValue(0);
+
+  useMouseMove(({ mouseX, mouseY }) => {
+    x.value = mouseX - CURSOR_SIZE / 2;
+    y.value = mouseY - CURSOR_SIZE / 2;
+  });
   return (
     <Router>
+      <animate.div
+      style={{
+        width: CURSOR_SIZE,
+        height: CURSOR_SIZE,
+        backgroundColor: "#333",
+        borderRadius: "50%",
+        translateX: x.value,
+        translateY: y.value,
+        zIndex: 9999,
+        position: "fixed",
+        pointerEvents: "none",
+        mixBlendMode: "difference",
+        
+      }}
+    />
       <MainContent />
     </Router>
   );
 }
-
 function MainContent() {
   const location = useLocation(); // Now inside Router, so no error
-
+  
+  
   return (
     <>
+      
       {location.pathname !== "/portfolio/works" && (
         <>
           <Nav />

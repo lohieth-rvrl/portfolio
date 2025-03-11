@@ -9,7 +9,7 @@ let sections
 export default function About() {
   return (
     <>
-      <section id="sec1">
+      <section id="sec1" className="mt-5">
         <div className="container-fluid" id="body1">
           <div className="row">
             <div className="col-lg-12">
