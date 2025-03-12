@@ -161,7 +161,7 @@ export default function Head() {
           </div>
         </div>
 
-        <div className="row px-5 d-flex align-items-center justify-content-evenly flex-wrap flex-column-reverse flex-md-row">
+        <div className="row d-flex align-items-center justify-content-center flex-wrap flex-column-reverse flex-md-row">
           <div className="col-md-6 text-center text-md-start pl-5 mt-5" id="he">
             <div className="name">
               <ScrollAnimation animateIn="fadeIn" animateOnce={false}>
@@ -178,7 +178,7 @@ export default function Head() {
                   I'm a <ReactTyped strings={["FULL STACK DEVELOPER.", "WEB DESIGNER.", "CODER."]} typeSpeed={40} backSpeed={50} loop />
                 </b>
               </p>
-              <p>Step into my world of ideas and innovation. Let's create something amazing together!</p>
+              <p class="d-none d-sm-block">Step into my world of ideas and innovation. Let's create something amazing together!</p>
             </ScrollAnimation>
           </div>
           <div id="himg" className="col-md-5 text-center pt-5 m-0">

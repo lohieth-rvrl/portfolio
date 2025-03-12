@@ -8,7 +8,7 @@ import Head from "./Components/Head";
 import Contact from "./Components/Contact";
 import Service from "./Components/Service";
 import All from "./Components/All";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Works from "./Components/Works";
 import { useMouseMove, useValue, animate } from "react-ui-animate";
 

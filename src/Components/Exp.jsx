@@ -35,10 +35,14 @@ export default function Exp() {
                       </p>
                       <ScrollAnimation animateIn='wobble'
                         initiallyVisible={true}>
-                        <button id="worksbtn" className="btn border border-2" onClick={() => navigate("/portfolio/works")}>
-                          <a href="">See All My Works</a>
-                          
+                        <button
+                          id="worksbtn"
+                          className="btn border border-2"
+                          onClick={() => (window.location.href = "#/portfolio/works")}
+                        >
+                          See All My Works
                         </button>
+
                       </ScrollAnimation>
                     </div>
                   </ScrollAnimation>
