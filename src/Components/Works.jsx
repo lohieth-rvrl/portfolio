@@ -1,10 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe, faCode, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import "animate.css/animate.compat.css";
-import "../css/Works.css"; // External CSS for additional styling
+import "../css/Works.css"; 
 import imgf1 from "/img/pro1.png";
 import imgf2 from "/img/pro2.png";
 import imgf3 from "/img/DrawHub.png";
@@ -13,7 +13,7 @@ import imgf5 from "/img/Bmi-calculator.png";
 import imgf6 from "/img/subway.png";
 
 export default function Works() {
-  const navigate = useNavigate(); // Initialize navigation
+  const navigate = useNavigate();
 
   const projects = [
     {
@@ -71,7 +71,7 @@ export default function Works() {
         {projects.map((project, index) => (
           <div className="col-md-4 mb-3" key={index}>
             <div className="box p grid-item">
-              <ScrollAnimation animateIn="bounce">
+              <ScrollAnimation animateIn="rotateInUpRight">
                 <img src={project.img} alt={project.title} className="work-img" />
                 <div className="overlay">
                   <h3>{project.title}</h3>

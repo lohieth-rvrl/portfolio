@@ -22,23 +22,23 @@ export default function All() {
 
                       </li>
                       <li className="p-2">
-                        <a href="#head"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
+                        <a href="#body1"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                           &nbsp;About</a>
                       </li>
                       <li className="p-2">
-                        <a href="#head"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
+                        <a href="#body2"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                           &nbsp;Skills</a>
                       </li>
                       <li className="p-2">
-                        <a href="#head"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
+                        <a href="#body3"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                           &nbsp;Service</a>
                       </li>
                       <li className="p-2">
-                        <a href="#head"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
+                        <a href="#body4"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                           &nbsp;Projects</a>
                       </li>
                       <li className="p-2">
-                        <a href="#head"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
+                        <a href="#body5"><FontAwesomeIcon icon={faCircleChevronRight} />{" "}
                           &nbsp;Contact</a>
                       </li>
                     </ul>
@@ -71,7 +71,7 @@ export default function All() {
 
                 </div>
                 <div className="col-md-4 d-flex align-items-center text-center flex-column p-2" id="conall">
-                  <ScrollAnimation animateIn="fadeInUp">
+                  <ScrollAnimation animateIn="tada  ">
                     <h3>Feel Free To Connect !</h3>
                     <br />
                     <p>"Feel free to connect with me if you have any questions, project inquiries, or just want to say hello! I'm always open to new opportunities and collaborations."</p>

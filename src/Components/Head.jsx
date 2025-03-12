@@ -141,9 +141,14 @@ export default function Head() {
       <div className="container-fluid p-5" id="con">
         <div className="snowflakes" aria-hidden="true">
           <div className="snowflake">
+          <div className="snowflake">❅</div>
+
             <FontAwesomeIcon icon={faNodeJs} size="2x" />
           </div>
           <div className="snowflake">❅</div>
+          <div className="snowflake">
+            <FontAwesomeIcon icon={faCss3} size="2x" />
+          </div>
           <div className="snowflake">
             <FontAwesomeIcon icon={faReact} size="2x" />
           </div>
@@ -156,9 +161,8 @@ export default function Head() {
             <FontAwesomeIcon icon={faHtml5} size="2x" />
           </div>
           <div className="snowflake">❅</div>
-          <div className="snowflake">
-            <FontAwesomeIcon icon={faCss3} size="2x" />
-          </div>
+          
+          
         </div>
 
         <div className="row d-flex align-items-center justify-content-center flex-wrap flex-column-reverse flex-md-row">
@@ -172,7 +176,7 @@ export default function Head() {
                 </h1>
               </ScrollAnimation>
             </div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce={false}>
+            <ScrollAnimation animateIn="none" animateOnce={false}>
               <p>
                 <b>
                   I'm a <ReactTyped strings={["FULL STACK DEVELOPER.", "WEB DESIGNER.", "CODER."]} typeSpeed={40} backSpeed={50} loop />

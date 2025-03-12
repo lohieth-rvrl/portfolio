@@ -8,6 +8,7 @@ import { Link } from "react-scroll";
 function CollapsibleExample() { 
   return (
     <div>
+      <div id="head"></div>
     <Navbar collapseOnSelect expand="lg" className="py-2" fixed="top" id="navb">
       <Container className="px-2">
         <Navbar.Brand href="/portfolio/">

@@ -11,6 +11,7 @@ import All from "./Components/All";
 import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Works from "./Components/Works";
 import { useMouseMove, useValue, animate } from "react-ui-animate";
+import ToTop from "./Components/ToTop.jsx";
 
 const CURSOR_SIZE = 40;
 export default function App() {
@@ -51,6 +52,7 @@ function MainContent() {
       
       {location.pathname !== "/portfolio/works" && (
         <>
+          <ToTop />
           <Nav />
           <Head />
           <About />

@@ -25,8 +25,9 @@ export default function Contact() {
                     <div class="box">
                       <h1>
                         <ScrollAnimation animateIn=' bounce' animateOnce={false} className="bounce-infinite">
-                          <FontAwesomeIcon icon={faCircle} style={{ color: "#2b2b24", }} />{" "}</ScrollAnimation>
-                        Lets Connect :{")"}
+                          {/* <FontAwesomeIcon icon={faCircle} style={{ color: "#2b2b24", }} />{" "} */}
+                          ♥</ScrollAnimation>
+                        Lets Connect ♣
                       </h1>
                       <p>
                         "Contributed to various web development projects,
