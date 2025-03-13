@@ -46,7 +46,7 @@ export default function About() {
                       </p>
                       <ScrollAnimation animateIn='wobble'
                         initiallyVisible={true}>
-                        <button class="btn border-2">
+                        <button class="btn border-2 border-dark resbtn">
                           <a href={resume}>Download CV</a>
                         </button>
                       </ScrollAnimation>

@@ -37,7 +37,7 @@ export default function Exp() {
                         initiallyVisible={true}>
                         <button
                           id="worksbtn"
-                          className="btn border border-2"
+                          className="btn border border-2 border-dark"
                           onClick={() => (window.location.href = "#/portfolio/works")}
                         >
                           See All My Works
@@ -54,7 +54,7 @@ export default function Exp() {
 
                       <div class="i1 col-md-6 p-3">
                         <ScrollAnimation animateIn='fadeIn'>
-                          <a href="https://www.linkedin.com/posts/lohieth-r_vintagecars-vinthub-classiccarenthusiast-activity-7128222452295340033-L3ME?utm_source=share&utm_medium=member_desktop">
+                          <a href="http://vinthub.netlify.app" target="_blank">
                             <img src={imgf1} className="img img-fluid" alt="" />
                           </a>
 
@@ -64,7 +64,7 @@ export default function Exp() {
                       </div>
                       <div class="i1 col-md-6 p-3">
                         <ScrollAnimation animateIn='fadeIn'>
-                          <a href="">
+                          <a href="https://github.com/lohieth-rvrl/BrandCycle" target="_blank">
                             <img
                               class="card-img"
                               src={imgf2}
@@ -80,14 +80,14 @@ export default function Exp() {
 
                       <div class="i1 col-md-6 p-3">
                         <ScrollAnimation animateIn='fadeIn'>
-                          <a href="https://www.linkedin.com/posts/lohieth-r_fullstack-python-vercel-activity-7289626972714897408-mP1B?utm_source=share&utm_medium=member_desktop">
+                          <a href="https://ed-tech-alpha-eight.vercel.app/" target="_blank">
                             <img src={imgf4} className="img img-fluid" alt="" />
                           </a>
                         </ScrollAnimation>
                       </div>
                       <div class="i1 col-md-6 p-3">
                         <ScrollAnimation animateIn='fadeIn'>
-                          <a href="">
+                          <a href="http://drawhub.netlify.app" target="_blank">
                             <img src={imgf3} className="img img-fluid" alt="" />
                           </a>
                         </ScrollAnimation>

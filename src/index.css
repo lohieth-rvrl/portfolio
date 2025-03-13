@@ -396,7 +396,7 @@
   background-color: white;
 }
 
-#worksbtn a{
+#worksbtn button{
 color: black !important; 
 }
 
@@ -409,8 +409,9 @@ color: black !important;
   color: white !important;
 }
 
-#con1 button a {
+#con1 button a{
   color: black;
+  text-decoration: none;
 }
 
 #con1 button:hover {
@@ -475,10 +476,7 @@ color: black !important;
   background-color: #f3f5e7;
 }
 
-#test2 button {
-  width: 150px;
-  border: 3px solid;
-}
+
 
 .icons {
   gap: 50px;
@@ -507,8 +505,11 @@ color: black !important;
   transform: scale(1.03);
 }
 
-#test2 a:hover {
-  color: black;
+.proj .i1 a {
+  color: rgb(202, 202, 202);
+}
+#con4 button a{
+  text-decoration: none;
 }
 
 
@@ -527,7 +528,14 @@ form .ms {
 
 #con5 form .tb {
   color: white;
-  background-color: #b1b493;
+  background-color: #2b2b24;
+  border: none;
+}
+#con5 form .tb:hover{
+  color: #ff8c00;
+  background-color: white;
+  border: 2px solid #ff8c00;
+  border-color: #1a1a17;
 }
 
 #con5 form .ms::placeholder {
@@ -553,9 +561,12 @@ form .ms {
 }
 
 #con5 .dbox .text p,
-a {
+#con5 .dbox a {
   color: #b1b493;
   text-decoration: none;
+}
+#con5 .dbox a:hover{
+  color: #ff8c00; 
 }
 
 /* service */
@@ -574,7 +585,11 @@ a {
 .shadow:hover {
   transform: scale(1.03);
 }
-
+#con71 ul li a{
+  color: #b1b493;
+  list-style: none;
+  text-decoration: none;
+}
 #con71 ul li a:hover,
 #con71 ul li:hover {
   color: #ff8c00;

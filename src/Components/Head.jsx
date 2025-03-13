@@ -119,7 +119,7 @@ import { faInstagramSquare, faLinkedin } from "@fortawesome/free-brands-svg-icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { ReactTyped } from "react-typed";
-import loki from "../assets/loki3.png";
+import loki from "../assets/loki3.webp";
 import ScrollAnimation from 'react-animate-on-scroll';
 import "../css/orbit.css";
 
@@ -175,15 +175,15 @@ export default function Head() {
                   <span className="blink">|</span>Lohieth Rangasamy
                 </h1>
               </ScrollAnimation>
-            </div>
-            <ScrollAnimation animateIn="none" animateOnce={false}>
+            </div><br />
+            {/* <ScrollAnimation animateIn="none" animateOnce={false}> */}
               <p>
                 <b>
                   I'm a <ReactTyped strings={["FULL STACK DEVELOPER.", "WEB DESIGNER.", "CODER."]} typeSpeed={40} backSpeed={50} loop />
                 </b>
               </p>
               <p class="d-none d-sm-block">Step into my world of ideas and innovation. Let's create something amazing together!</p>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
           </div>
           <div id="himg" className="col-md-5 text-center pt-5 m-0">
             <div className="rotating-icons mt-4 d-flex justify-content-evenly">
